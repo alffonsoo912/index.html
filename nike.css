@@ -1,0 +1,262 @@
+body{
+   background-color: gainsboro;
+}
+
+
+.encabezado{
+    font-family: fantasy;
+    padding-inline: 30px;
+   text-align: center;
+   background-image: url("https://media.istockphoto.com/id/1407271745/es/foto/fondo-gris.jpg?s=612x612&w=0&k=20&c=M67qYq21LbZHIQlCaSvQpua4zFhaZ4dXAmc_iTr2aG0=");
+   padding: 15px;
+  height: 85px;
+}
+h1{
+    font-size: 40px;
+   
+}
+p{
+   font-size: 30px;
+  padding-bottom: 15px;
+}
+
+/*estilo diferentes secciones de producto*/
+.secciones{
+    overflow: hidden;
+   background-color: black;
+   border: solid white;
+}
+.secciones a{
+display: block;
+text-align: center;
+text-decoration: none;
+color: white;
+float: left; 
+width: 25%;
+padding-top: 5px;
+padding-bottom: 5px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+border-left: solid white;
+box-sizing: border-box;
+}
+.secciones a:hover{
+    background-color: orange;
+    color: black;
+}
+
+
+
+/*estilo introducción página web selección española*/
+.equipacion{
+
+color: black;
+background-image: url("https://static.grupojoly.com/clip/7948156d-e5f1-4cfa-96f8-3d1372ed7233_source-aspect-ratio_1600w_0.jpg");
+padding-top: 700px;
+background-repeat: no-repeat;
+background-size: 1900px 1300px;
+}
+
+.boton{
+text-align: center;
+padding-bottom: 80px;
+
+}
+
+.españa2{
+
+display: inline-block;
+text-decoration: none;
+font-size: 30px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+color: black;
+border: solid;
+border-radius: 100px ;
+padding: 20px;
+background-color: white;
+}
+.boton a:hover{
+    background-color: rgb(64, 121, 228);
+    color: white;
+}
+
+/*estilo formulario*/
+
+.datosdecontacto{
+    display: inline-block;
+   padding-inline: 20px;
+padding-bottom: 20px;
+background-color: white;
+border: 2px white;
+border-radius: 5px;
+  
+}
+
+.formulario{
+    text-align: center;
+     margin-bottom: 50px; 
+}
+
+.tituloformulario{
+    text-decoration: underline;
+}
+
+/* producto equipación selección española otra página*/
+
+.pagina2{
+    background-color: white;
+ margin: 0;
+ overflow: hidden;
+}
+
+
+.producto{
+     display: flex;
+    width: 100%;
+   height: 100%;
+   margin-top: 40px;
+   
+    
+}
+.imagen{
+    width: 50%;
+    height: 100vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-120px);
+    
+}
+.img{
+    width: 550px;
+    height: 650px;
+  margin: 20px;
+    border-radius: 20px;
+}
+
+
+
+
+.informacion{
+    width: 50%;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  border-bottom: solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-left: solid 1px rgb(179, 179, 179);
+   padding-left: 40px;
+    padding-right: 70px;
+
+   
+}
+.tituloproducto{
+    font-size: 50px;
+    text-align: center;
+}
+.subtituloproducto{
+    text-align: center;
+    text-decoration: none;
+    margin-top: -20px;
+    font-size: 20px;
+}
+.precio{
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.productoagotado{
+margin-top: 70px;
+font-size: 20px;
+border: solid white;
+background-color: rgb(241, 241, 241);
+display: inline-block;
+padding-inline: 70px;
+padding-top: 20px;
+padding-bottom: 20px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+}
+
+.excluido{
+font-size: 20px;
+font-family:Arial, Helvetica, sans-serif;
+color: rgba(175, 175, 175, 0.747);
+
+}
+.descripcion{
+    text-align: left;
+    margin-top: 70px;
+    font-size: 20px;
+}
+
+
+
+
+/*Todos los catálogos de Nike*/
+
+
+.productoshombres{
+display: flex;
+
+}
+
+.productoh{
+    width: 33.33%;
+    margin: 20px;
+text-decoration: none;
+color: black;
+
+}
+
+.productoh img{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+  
+margin-left: -25px;
+}
+
+.tituloscatalogo{
+    padding-inline: 25px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -10px;
+}
+
+.catalogo{
+    font-size: 20px;
+    margin-top: -15px;
+}
+
+.preciocatalogo{
+margin-top: -15px;
+
+}
+
+.volver{
+    text-align: center;
+    margin-top: -40px;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.descuento{
+    text-decoration-line: line-through;
+    font-size: 17px;
+    color: white;
+}
+.porcentaje{
+    font-size: 17px;
+    color: green;
+}
+.preciocatalogo, .descuento, .porcentaje{
+    display: inline;
+    margin-inline-start: 7px;
+}
+
+
+/*Todos los productos */
+
